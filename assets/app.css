@@ -1,0 +1,44 @@
+.panel {
+  padding: 16px;
+}
+
+window {
+  background: rgba(14, 18, 24, 0.96);
+}
+
+entry,
+button,
+label,
+window {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+entry {
+  background: rgba(7, 10, 14, 0.55);
+  border: 1px solid rgba(130, 136, 148, 0.7);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+button {
+  background: rgba(34, 42, 54, 0.8);
+  border: 1px solid rgba(140, 150, 163, 0.75);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.dim-label {
+  opacity: 0.9;
+}
+
+.result-card {
+  background: rgba(14, 18, 24, 0.75);
+  border: 1px solid rgba(110, 120, 132, 0.65);
+  border-radius: 10px;
+  padding: 8px;
+  min-height: 220px;
+}
+
+.result-card-selected {
+  background: rgba(24, 31, 42, 0.95);
+}

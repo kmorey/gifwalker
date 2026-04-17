@@ -1,0 +1,9 @@
+pub mod app;
+pub mod clipboard;
+pub mod config;
+pub mod controller;
+pub mod giphy;
+pub mod model;
+pub mod provider;
+pub mod theme;
+pub mod ui;

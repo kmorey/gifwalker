@@ -8,7 +8,7 @@ Walker-styled GTK overlay for searching Giphy GIFs on Omarchy.
 2. Click **Settings** or type `/settings`, then save your Giphy API key.
 3. Enter a search query and wait briefly for results to load.
 4. Use the arrow keys to move through the result grid.
-5. Press `Enter` to copy GIF image data or `Alt+Enter` to copy the direct GIF URL.
+5. Press `Enter` to copy GIF image data or `Shift+Enter` to copy the direct GIF URL.
 
 ## Config Path
 

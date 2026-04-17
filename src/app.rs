@@ -137,7 +137,7 @@ pub fn run() -> Result<()> {
                             let mut state = state.borrow_mut();
                             state.set_results(payload.items, thumbnails);
                             status_label.set_label(&format!(
-                                "Found {} result(s). Enter copies the GIF. Alt+Enter copies the URL.",
+                                "Found {} result(s). Enter copies the GIF. Shift+Enter copies the URL.",
                                 state.items.len()
                             ));
                             refresh_results_view(&results_grid, &scroller, &state);
